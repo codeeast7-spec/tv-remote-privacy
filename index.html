@@ -115,6 +115,7 @@
 <h3>Other things the app looks at</h3>
 <ul>
   <li><strong>Clipboard:</strong> read only when you tap “Paste”.</li>
+  <li><strong>Apps on this phone, for icons:</strong> to show familiar icons in the apps panel, the app checks whether this phone has the phone version of a TV app from its built-in list (for example YouTube or Netflix) and, if it does, shows that app’s icon. The app looks only for the apps on that list (and from Android 11, Android itself hides every other app from it). The check stays on the phone: nothing about your apps is sent anywhere.</li>
   <li><strong>Network status:</strong> whether the phone is on Wi-Fi, mobile data or a VPN, and the phone’s own address on the Wi-Fi network. The app uses this to reach the TV over Wi-Fi even when mobile data is the phone’s main connection, and to explain why a TV can’t be reached. It does not read the name of your Wi-Fi network.</li>
   <li><strong>Finding TVs:</strong> the app listens on your local network for TVs that announce their remote service (mDNS). If that finds nothing, it checks the other addresses of your own Wi-Fi network (at most 254) for the TV remote port, a few at a time. These checks are bare connection attempts: they carry no data and stay on your Wi-Fi network.</li>
 </ul>
@@ -215,6 +216,7 @@
 <h3>К чему ещё обращается приложение</h3>
 <ul>
   <li><strong>Буфер обмена</strong> — только когда вы нажимаете «Вставить».</li>
+  <li><strong>Приложения на телефоне — для иконок</strong> — чтобы показать в панели приложений знакомые иконки, приложение проверяет, есть ли на телефоне мобильная версия ТВ-приложения из встроенного списка (например, YouTube или Netflix), и если есть — показывает её иконку. Приложение ищет только приложения из этого списка (а начиная с Android 11 сам Android скрывает от него все остальные). Проверка не выходит за пределы телефона: сведения о ваших приложениях никуда не отправляются.</li>
   <li><strong>Состояние сети</strong> — подключён ли телефон к Wi-Fi, мобильному интернету или VPN, и адрес телефона в сети Wi-Fi. По ним приложение связывается с телевизором через Wi-Fi, даже когда основным подключением телефона стал мобильный интернет, и объясняет, почему телевизор недоступен. Название вашей сети Wi-Fi приложение не читает.</li>
   <li><strong>Поиск телевизоров</strong> — приложение слушает локальную сеть, в которой телевизоры сообщают о своей службе удалённого управления (mDNS). Если так ничего не нашлось, оно по нескольку за раз проверяет остальные адреса вашей сети Wi-Fi (не больше 254) — открыт ли на них порт пульта. Это лишь попытки соединения: данных в них нет, и за пределы вашей сети Wi-Fi они не выходят.</li>
 </ul>
